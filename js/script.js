@@ -1,4 +1,4 @@
-let fetchquote = fetch("https://type.fit/api/quotes")            
+let fetchquote = fetch("https://jacintodesign.github.io/quotes-api/data/quotes.json")            
  
 async function quotes(){
     let response = await fetchquote 
